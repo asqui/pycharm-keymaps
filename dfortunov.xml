@@ -1,4 +1,4 @@
-<keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+<keymap version="1" name="dfortunov" parent="Default for XWin">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift control Z" />
     <keyboard-shortcut first-keystroke="shift alt BACK_SPACE" />
