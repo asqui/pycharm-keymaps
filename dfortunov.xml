@@ -1,21 +1,13 @@
-<keymap version="1" name="dfortunov" parent="Default for XWin">
+<keymap version="1" name="dfortunov" parent="$default">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift control Z" />
     <keyboard-shortcut first-keystroke="shift alt BACK_SPACE" />
     <keyboard-shortcut first-keystroke="control Y" />
   </action>
-  <action id="Back">
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="alt LEFT" />
-  </action>
   <action id="Compare.SameVersion">
     <keyboard-shortcut first-keystroke="shift control D" />
   </action>
-  <action id="Console.History.Next" />
-  <action id="Console.History.Previous" />
   <action id="Console.TableResult.DeleteRows" />
-  <action id="Diff.NextChange" />
-  <action id="Diff.PrevChange" />
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="control Y" />
   </action>
@@ -26,32 +18,11 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift F3" />
   </action>
-  <action id="Forward">
-    <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="alt RIGHT" />
-  </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="alt L" />
   </action>
   <action id="LocalHistory.ShowSelectionHistory">
     <keyboard-shortcut first-keystroke="shift alt L" />
-  </action>
-  <action id="NextTab" />
-  <action id="PreviousTab" />
-  <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
-  </action>
-  <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
-  </action>
-  <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
-  </action>
-  <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
-  </action>
-  <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="Unscramble">
