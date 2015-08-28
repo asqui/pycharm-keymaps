@@ -15,8 +15,12 @@
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="control alt D" />
   </action>
+  <action id="Compile" />
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.SetDefault" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift control F9" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="control Y" />
   </action>
