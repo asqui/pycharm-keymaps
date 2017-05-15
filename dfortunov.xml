@@ -1,73 +1,73 @@
 <keymap version="1" name="dfortunov" parent="$default">
   <action id="$Redo">
-    <keyboard-shortcut first-keystroke="shift control Z" />
-    <keyboard-shortcut first-keystroke="shift alt BACK_SPACE" />
-    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="Back">
-    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
     <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="Compare.SameVersion">
-    <keyboard-shortcut first-keystroke="shift control D" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="CompareClipboardWithSelection">
-    <keyboard-shortcut first-keystroke="control alt D" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="Compile" />
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.SetDefault" />
   <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="shift control F9" />
+    <keyboard-shortcut first-keystroke="shift ctrl f9" />
   </action>
   <action id="Editor Redo">
-    <keyboard-shortcut first-keystroke="control Y" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="EditorDeleteLine" />
   <action id="FindNext">
-    <keyboard-shortcut first-keystroke="F3" />
+    <keyboard-shortcut first-keystroke="f3" />
   </action>
   <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="shift F3" />
+    <keyboard-shortcut first-keystroke="shift f3" />
   </action>
   <action id="Forward">
-    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
     <mouse-shortcut keystroke="button5" />
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="LocalHistory.ShowHistory">
-    <keyboard-shortcut first-keystroke="alt L" />
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="LocalHistory.ShowSelectionHistory">
-    <keyboard-shortcut first-keystroke="shift alt L" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="NextEditorTab" />
   <action id="PreviousEditorTab" />
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+    <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Uml.ShowDiff" />
   <action id="Unscramble">
-    <keyboard-shortcut first-keystroke="alt S" second-keystroke="alt T" />
+    <keyboard-shortcut first-keystroke="alt s" second-keystroke="alt t" />
   </action>
   <action id="Vcs.ShowHistoryForBlock">
-    <keyboard-shortcut first-keystroke="shift control L" />
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
-    <keyboard-shortcut first-keystroke="control L" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="context.load" />
 </keymap>
