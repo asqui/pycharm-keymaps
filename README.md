@@ -29,8 +29,8 @@ Additional shortcuts in this keymap:
 
 To make use of this keymap:
 
-	cd ~/.PyCharm2017.1/config               # On Linux
-	cd ~/Library/Preferences/PyCharm2017.1/  # On OS X
+	cd ~/.PyCharm2017.1/config                                        # On Linux
+	cd /Users/asqui/Library/Application\ Support/JetBrains/PyCharm*/  # On macOS
 	git clone https://github.com/asqui/pycharm-keymaps.git keymaps
 
 (If you already have keymaps, you may need to remove `keymaps/`, or move it away and merge it after cloning the repo.)
