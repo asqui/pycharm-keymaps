@@ -12,7 +12,7 @@ Additional shortcuts in this keymap:
 
 | Shortcut          | Action
 | ----------------- | ----------------- 
-| Ctrl+Y            | **Redo** (as opposed to Delete Line in the default keymap)
+| Ctrl+Y            | **Redo** (as opposed to Delete Line in the default keymap)
 | Shift+Ctrl+D      | **Diff** current file against repo version (i.e. show my local changes)
 | Ctrl+Alt+D        | **Diff** clipboard contents with the current selection
 | Alt+S, Alt+T      | **Stack Trace Explorer** - display the stack trace from the clipboard with hyperlinks to the code for each frame.
@@ -24,13 +24,24 @@ Additional shortcuts in this keymap:
 | Ctrl+F5           | **Rerun** previous configuration (e.g. previous unit test run)
 | Ctrl+Shift+F5     | **Rerun Failed Tests**
 
+The following useful shortcuts are actually part of the standard keymap, but not on the reference card linked above!
+
+| Shortcut              | Action
+| --------------------- | -----------------
+| Alt+J                 | **Spawn multi-cursor** at the next occurrence of the currently selected text.
+| Shift+Alt+J	        | **Undo spawn multi-cursor**, if you went too far.
+| Ctrl+Alt+Shift+Insert | **Create New Scratch File**
+| Ctrl+Shift+E          | **Recent Locations** pop-up -- includes code snippets of previous locations
+| Alt+Shift+E           | **Execute selection in console** -- useful to execute snippets of code when debugging.
+| Ctrl+Shift+Quote (')  | **Maximize Tool Window** -- useful for seeing long output (e.g. stack traces)
+
 
 ## Usage
 
 To make use of this keymap:
 
-	cd ~/.PyCharm2017.1/config                                        # On Linux
-	cd /Users/asqui/Library/Application\ Support/JetBrains/PyCharm*/  # On macOS
+	cd ~/.config/JetBrains/PyCharm2021.3/                      # On Linux
+	cd ~/Library/Application Support/JetBrains/PyCharm2021.3/  # On OS X
 	git clone https://github.com/asqui/pycharm-keymaps.git keymaps
 
 (If you already have keymaps, you may need to remove `keymaps/`, or move it away and merge it after cloning the repo.)
